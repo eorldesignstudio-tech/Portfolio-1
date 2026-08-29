@@ -18,6 +18,7 @@ function figmaAssetResolver() {
 
   export default defineConfig({
     plugins: [react(), tailwindcss(), figmaAssetResolver()],
+    base: '/Portfolio-1/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

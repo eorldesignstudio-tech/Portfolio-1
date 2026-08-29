@@ -55,7 +55,7 @@ export function About() {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate digital creator with over 5 years
+            I'm a passionate digital creator with over 4 years
             of experience in design and development. I believe
             in the power of thoughtful design to solve problems
             and creating meaningful connections.
