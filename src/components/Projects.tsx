@@ -27,7 +27,7 @@ const projects: Project[] = [
       "A modern, responsive platform built for a local coffee shop.",
     category: "Web Design",
     image:
-      "images/coffeeshop.png",
+      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -75,6 +75,18 @@ const projects: Project[] = [
       "Rendering",
       "Animation",
     ],
+  },
+  {
+    id: 5,
+    title: " Website",
+    description:
+      "A modern, responsive platform built for a .",
+    category: "Web Design",
+    image:
+      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
+    liveUrl: "#",
+    githubUrl: "#",
   },
 ];
 
