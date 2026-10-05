@@ -27,8 +27,7 @@ const projects: Project[] = [
     description:
       "A modern, responsive platform built for a local coffee shop.",
     category: "Web Design",
-    image:
-      "coffeeshop.png", 
+    image: "/images/project-coffee.svg",
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -39,8 +38,7 @@ const projects: Project[] = [
     description:
       "Complete brand identity design for an eco-friendly lifestyle company, including logo, color palette, typography, and brand guidelines.",
     category: "Brand Identity",
-    image:
-      "https://images.unsplash.com/photo-1713370865802-11303d1a44f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFuZCUyMGRlc2lnbiUyMGxvZ298ZW58MXx8fHwxNzU2OTA3MDk1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/project-sustainable.svg",
     tags: [
       "Logo Design",
       "Brand Guidelines",
@@ -53,8 +51,7 @@ const projects: Project[] = [
     description:
       "Mobile app design for fitness enthusiasts with workout tracking, progress analytics, and social features. Focused on intuitive UX and motivating design.",
     category: "App",
-    image:
-      "https://images.unsplash.com/photo-1658953229625-aad99d7603b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU2ODY2MDg4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/project-fitness.svg",
     tags: [
       "UI/UX Design",
       "Figma",
@@ -68,8 +65,7 @@ const projects: Project[] = [
     description:
       "High-quality 3D renders and animations for product showcases, featuring photorealistic materials, lighting, and dynamic camera movements.",
     category: "3D Design",
-    image:
-      "https://images.unsplash.com/photo-1636302304088-e1bd81885a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzZCUyMGRlc2lnbiUyMHJlbmRlcnxlbnwxfHx8fDE3NjM1NTAwNzl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/project-product.svg",
     tags: [
       "Blender",
       "Cinema 4D",
@@ -79,37 +75,34 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: " Website",
+    title: "Website",
     description:
-      "A modern, responsive platform built for a .",
+      "A modern, responsive platform built for a lifestyle brand website concept.",
     category: "Web Design",
-    image:
-      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    image: "/images/project-website.svg",
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
   },
-   {
+  {
     id: 6,
     title: "Streetwear Branding",
     description:
-      "A modern, responsive platform built for a .",
+      "A contemporary brand direction for a streetwear label with expressive typography and elevated retail visuals.",
     category: "Brand Identity",
-    image:
-      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
+    image: "/images/project-streetwear.svg",
+    tags: ["Brand Strategy", "Typography", "Packaging", "Art Direction"],
     liveUrl: "#",
     githubUrl: "#",
   },
-   {
+  {
     id: 7,
     title: "Hot Chicken Branding",
     description:
-      "A modern, responsive platform built for a .",
+      "A bold identity system for a neighborhood restaurant concept that blends heat, personality, and craft.",
     category: "Brand Identity",
-    image:
-      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
+    image: "/images/project-hotchicken.svg",
+    tags: ["Brand Identity", "Illustration", "Menu Design", "Campaign"],
     liveUrl: "#",
     githubUrl: "#",
   },
@@ -197,6 +190,14 @@ export function Projects() {
                 className="group overflow-hidden border-0 shadow-sm hover:shadow-xl transition-all duration-300 bg-white/80 backdrop-blur-sm"
               >
                 <CardContent className="p-6">
+                  <div className="mb-4 overflow-hidden rounded-xl border border-orange-100 bg-gradient-to-br from-orange-50 to-rose-50">
+                    <ImageWithFallback
+                      src={project.image}
+                      alt={`${project.title} preview`}
+                      className="h-52 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+
                   <div className="mb-3">
                     <Badge
                       variant="secondary"

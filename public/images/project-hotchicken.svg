@@ -1,0 +1,23 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="250" cy="180" r="150" fill="#FCD34D" fill-opacity="0.45"/>
+  <circle cx="960" cy="220" r="170" fill="#FCA5A5" fill-opacity="0.4"/>
+  <rect x="120" y="180" width="960" height="440" rx="32" fill="#FFF7ED" fill-opacity="0.9"/>
+  <rect x="200" y="248" width="800" height="300" rx="28" fill="#FFF1F2"/>
+  <path d="M330 430C294 380 292 324 323 297C358 266 430 278 478 312C524 345 549 395 541 446C533 499 483 541 427 545C374 548 337 498 330 430Z" fill="#F97316" fill-opacity="0.78"/>
+  <path d="M378 333C390 312 416 298 452 299C483 300 507 316 523 342C537 367 540 403 533 431C522 476 487 508 445 514C405 520 353 497 336 456C318 412 335 367 378 333Z" fill="#FCD34D"/>
+  <path d="M412 338C439 355 457 377 468 406C481 440 478 469 456 489C433 511 392 511 362 493C334 477 311 447 311 410C311 367 368 328 412 338Z" fill="#FDE68A" fill-opacity="0.8"/>
+  <circle cx="420" cy="362" r="10" fill="#1F2937"/>
+  <path d="M360 385C392 410 439 414 477 390" stroke="#1F2937" stroke-width="10" stroke-linecap="round"/>
+  <path d="M470 315C501 344 520 375 537 427C566 419 593 415 622 421C645 426 668 438 688 462C641 502 604 576 592 625H456C458 563 459 504 470 315Z" fill="#FBBF24" fill-opacity="0.72"/>
+  <path d="M627 366C676 343 731 347 773 375C815 404 851 457 855 507C859 557 832 590 795 603C755 617 707 607 667 578C633 554 600 522 583 469C570 427 596 382 627 366Z" fill="#F97316" fill-opacity="0.8"/>
+  <path d="M710 430H806" stroke="#7C2D12" stroke-width="16" stroke-linecap="round"/>
+  <path d="M732 514H788" stroke="#7C2D12" stroke-width="16" stroke-linecap="round"/>
+  <rect x="260" y="590" width="680" height="24" rx="12" fill="#7C2D12" fill-opacity="0.1"/>
+  <defs>
+    <linearGradient id="bg" x1="110" y1="110" x2="1020" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+</svg>
