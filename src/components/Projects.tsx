@@ -7,6 +7,8 @@ import { Badge } from "./ui/badge";
 import { Card, CardContent } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "framer-motion";
+import {abstractImage} from 'figma:asset/build/assets/coffeeshop.png';
+
 
 interface Project {
   id: number;
@@ -27,7 +29,7 @@ const projects: Project[] = [
       "A modern, responsive platform built for a local coffee shop.",
     category: "Web Design",
     image:
-      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "coffeeshop.png", 
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -82,6 +84,18 @@ const projects: Project[] = [
     description:
       "A modern, responsive platform built for a .",
     category: "Web Design",
+    image:
+      "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+   {
+    id: 6,
+    title: " Branding",
+    description:
+      "A modern, responsive platform built for a .",
+    category: "Brand Identity",
     image:
       "https://images.unsplash.com/photo-1730794545099-14902983739d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MXx8fHwxNzU2OTA1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
