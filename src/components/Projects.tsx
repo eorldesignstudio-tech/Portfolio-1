@@ -91,7 +91,7 @@ const projects: Project[] = [
   },
    {
     id: 6,
-    title: " Branding",
+    title: "Streetwear Branding",
     description:
       "A modern, responsive platform built for a .",
     category: "Brand Identity",
@@ -103,7 +103,7 @@ const projects: Project[] = [
   },
    {
     id: 7,
-    title: " Branding",
+    title: "Hot Chicken Branding",
     description:
       "A modern, responsive platform built for a .",
     category: "Brand Identity",
