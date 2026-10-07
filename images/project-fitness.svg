@@ -1,0 +1,29 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="250" cy="170" r="140" fill="#7DD3FC" fill-opacity="0.42"/>
+  <circle cx="910" cy="180" r="170" fill="#C4B5FD" fill-opacity="0.4"/>
+  <rect x="120" y="180" width="960" height="440" rx="32" fill="#F7F9FF" fill-opacity="0.9"/>
+  <rect x="220" y="250" width="320" height="200" rx="28" fill="#E0F2FE"/>
+  <rect x="620" y="250" width="300" height="200" rx="28" fill="#EEF2FF"/>
+  <path d="M605 498C632 451 678 421 724 417C771 413 812 430 851 461C886 490 912 527 928 573H471C484 535 530 514 605 498Z" fill="#312E81" fill-opacity="0.7"/>
+  <path d="M528 402C543 370 560 342 573 289C594 287 614 314 622 346C630 376 626 403 616 428C604 458 579 474 552 464C541 460 531 440 528 402Z" fill="#0EA5E9" fill-opacity="0.75"/>
+  <path d="M700 319C718 317 734 330 742 347C751 366 751 390 741 408C730 427 711 437 691 433C668 429 650 408 645 382C639 356 650 331 675 323C683 320 692 319 700 319Z" fill="#A78BFA"/>
+  <path d="M703 480C727 523 729 570 714 608C699 645 666 673 627 678C579 684 551 642 537 613C521 580 514 520 552 491C586 465 667 452 703 480Z" fill="#38BDF8" fill-opacity="0.8"/>
+  <path d="M652 555C677 538 706 534 733 540C769 548 800 573 817 601C835 629 841 665 823 686C800 713 748 707 710 692C667 675 630 643 626 606C623 582 632 566 652 555Z" fill="#4F46E5" fill-opacity="0.75"/>
+  <path d="M432 420L497 379M430 448L493 451M467 372L532 391L503 464" stroke="#0F172A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="511" cy="347" r="28" fill="#F8FAFC"/>
+  <circle cx="511" cy="347" r="16" fill="#0EA5E9"/>
+  <rect x="258" y="292" width="72" height="128" rx="14" fill="#1E293B"/>
+  <rect x="346" y="292" width="72" height="128" rx="14" fill="#1E293B"/>
+  <rect x="278" y="256" width="112" height="36" rx="18" fill="#F59E0B"/>
+  <path d="M690 514H826" stroke="#7C3AED" stroke-width="20" stroke-linecap="round"/>
+  <path d="M850 514H882" stroke="#7C3AED" stroke-width="20" stroke-linecap="round"/>
+  <path d="M728 607C749 585 790 581 810 603" stroke="#7C3AED" stroke-width="8" stroke-linecap="round"/>
+  <rect x="215" y="580" width="770" height="28" rx="14" fill="#0F172A" fill-opacity="0.08"/>
+  <defs>
+    <linearGradient id="bg" x1="98" y1="116" x2="1080" y2="736" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+  </defs>
+</svg>
