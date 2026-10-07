@@ -27,7 +27,7 @@ const projects: Project[] = [
     description:
       "A modern, responsive platform built for a local coffee shop.",
     category: "Web Design",
-    image: "/images/project-coffee.svg",
+    image: `${import.meta.env.BASE_URL}images/project-coffee.svg`,
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     description:
       "Complete brand identity design for an eco-friendly lifestyle company, including logo, color palette, typography, and brand guidelines.",
     category: "Brand Identity",
-    image: "/images/project-sustainable.svg",
+    image: `${import.meta.env.BASE_URL}images/project-sustainable.svg`,
     tags: [
       "Logo Design",
       "Brand Guidelines",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     description:
       "Mobile app design for fitness enthusiasts with workout tracking, progress analytics, and social features. Focused on intuitive UX and motivating design.",
     category: "App",
-    image: "/images/project-fitness.svg",
+    image: `${import.meta.env.BASE_URL}images/project-fitness.svg`,
     tags: [
       "UI/UX Design",
       "Figma",
@@ -65,7 +65,7 @@ const projects: Project[] = [
     description:
       "High-quality 3D renders and animations for product showcases, featuring photorealistic materials, lighting, and dynamic camera movements.",
     category: "3D Design",
-    image: "/images/project-product.svg",
+    image: `${import.meta.env.BASE_URL}images/project-product.svg`,
     tags: [
       "Blender",
       "Cinema 4D",
@@ -79,7 +79,7 @@ const projects: Project[] = [
     description:
       "A modern, responsive platform built for a lifestyle brand website concept.",
     category: "Web Design",
-    image: "/images/project-website.svg",
+    image: `${import.meta.env.BASE_URL}images/project-website.svg`,
     tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
     liveUrl: "#",
     githubUrl: "#",
@@ -90,7 +90,7 @@ const projects: Project[] = [
     description:
       "A contemporary brand direction for a streetwear label with expressive typography and elevated retail visuals.",
     category: "Brand Identity",
-    image: "/images/project-streetwear.svg",
+    image: `${import.meta.env.BASE_URL}images/project-streetwear.svg`,
     tags: ["Brand Strategy", "Typography", "Packaging", "Art Direction"],
     liveUrl: "#",
     githubUrl: "#",
@@ -101,7 +101,7 @@ const projects: Project[] = [
     description:
       "A bold identity system for a neighborhood restaurant concept that blends heat, personality, and craft.",
     category: "Brand Identity",
-    image: "/images/project-hotchicken.svg",
+    image: `${import.meta.env.BASE_URL}images/project-hotchicken.svg`,
     tags: ["Brand Identity", "Illustration", "Menu Design", "Campaign"],
     liveUrl: "#",
     githubUrl: "#",
