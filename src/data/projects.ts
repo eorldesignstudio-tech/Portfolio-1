@@ -19,7 +19,7 @@ export const projects: Project[] = [
       "A modern, responsive platform built for a local coffee shop.",
     category: "Web Design",
     image: `${import.meta.env.BASE_URL}images/project-coffee.svg`,
-    tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
+    tags: ["React", "TypeScript", "Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
   },
@@ -88,5 +88,25 @@ export const projects: Project[] = [
     tags: ["Brand Identity", "Illustration", "Menu Design", "Campaign"],
     liveUrl: "#",
     githubUrl: "#",
+  },
+  {
+    id: 8,
+    slug: "3d-product-visualization",
+    title: "3D Product Visualization",
+    description:
+      "High-quality 3D renders and animations for product showcases, featuring photorealistic materials, lighting, and dynamic camera movements.",
+    category: "3D Design",
+    image: `${import.meta.env.BASE_URL}images/project-product.svg`,
+    tags: ["Blender", "Cinema 4D", "Rendering", "Animation"],
+  },
+  {
+    id: 9,
+    slug: "3d-product-visualization",
+    title: "3D Product Visualization",
+    description:
+      "High-quality 3D renders and animations for product showcases, featuring photorealistic materials, lighting, and dynamic camera movements.",
+    category: "3D Design",
+    image: `${import.meta.env.BASE_URL}images/project-product.svg`,
+    tags: ["Blender", "Cinema 4D", "Rendering", "Animation"],
   },
 ];
