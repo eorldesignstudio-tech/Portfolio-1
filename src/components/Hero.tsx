@@ -85,17 +85,18 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           >
             <div className="relative">
-              <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 shadow-2xl">
+              <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl isolate overflow-hidden bg-gradient-to-br from-purple-500/20 to-pink-500/20 shadow-2xl">
                 <motion.img
                   src={abstractImage}
                   alt="Abstract 3D Art"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover will-change-transform"
                   animate={{
-                    y: [0, -10, 0],
-                    rotate: [0, 2, -2, 0],
+                    scale: [1.06, 1.1, 1.06],
+                    x: [0, -4, 0],
+                    y: [0, -4, 0],
                   }}
                   transition={{
-                    duration: 6,
+                    duration: 12,
                     repeat: Infinity,
                     ease: "easeInOut",
                   }}
